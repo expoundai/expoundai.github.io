@@ -29,7 +29,7 @@
 <p style="font-size:.9rem;"><a href="/">&larr; Minutary</a></p>
 
 <h1>Minutary Privacy Policy</h1>
-<p class="updated">Effective date: July 8, 2026</p>
+<p class="updated">Effective date: July 23, 2026</p>
 
 <div class="tldr">
   <strong>In short:</strong> Minutary does not collect, transmit, sell, or share any of
@@ -49,6 +49,10 @@ or to any third-party service.</p>
 device</strong>, in the app's private storage. Transcription and summarization are
 performed entirely on your device — your content is processed locally and is not
 uploaded anywhere by the app.</p>
+<p>If you have iCloud device backups enabled, your recordings and notes may be included
+in <strong>your own encrypted iCloud backup</strong>, like other app data on your phone —
+this is controlled by you in iOS Settings, and the developer never has access to it.
+Backups are how your notes survive moving to a new iPhone.</p>
 <p>You can delete any recording and its notes at any time from within the app. Deleting
 the app removes all of its data from your device.</p>
 
@@ -63,17 +67,28 @@ Apple. That download is performed by the operating system under
 <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>; your
 recordings are not part of it.</p>
 
+<h2>Optional Backup Summarizer download</h2>
+<p>Minutary offers an optional Backup Summarizer — an open-source AI model
+(about 1&nbsp;GB) downloaded once from a public content-delivery network when you
+choose to enable it in Settings. The download is a one-way fetch of the model
+itself: none of your recordings, notes, or personal data are sent in the process.
+After the download, the Backup Summarizer runs entirely on your device, and you
+can remove it at any time in Settings.</p>
+
 <h2>Purchases</h2>
 <p>In-app purchases are processed entirely by Apple through the App Store. The developer
 does not receive or store your name, payment details, or billing information.</p>
 
 <h2>Optional Reminders, Calendar, and Face ID</h2>
-<p>If you choose to add action items to Apple Reminders or Calendar (or enable
-automatic adding in Settings), entries are created directly on your device using
+<p>If you choose to add action items to Apple Reminders or Calendar (or leave
+automatic adding on in Settings), entries are created directly on your device using
 Apple's frameworks. Minutary requests <strong>write-only</strong> calendar access
-— it cannot read your calendar — and uses Reminders access solely to create the
-items you ask for. If you enable app lock, authentication is performed by iOS;
-Minutary never sees or stores biometric data.</p>
+to create events. If you mark an action item as complete, Minutary can remove the
+calendar event it created — iOS may ask you to grant broader calendar access at
+that moment, and it is used solely to remove the app's own events. Reminders
+access is used solely to create and complete the items the app adds. If you enable
+app lock, authentication is performed by iOS; Minutary never sees or stores
+biometric data.</p>
 
 <h2>Your responsibility when recording others</h2>
 <p>Laws on recording conversations vary by country and region, and many require the
